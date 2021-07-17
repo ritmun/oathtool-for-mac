@@ -25,7 +25,7 @@ _Ensure that your organization allows permits using a legitimate commandline too
 ```chmod 730 tokgen.sh```
 
 
-7. Add the following alias to your bashrc or zshrc file. \
+7. Add the following alias to the .bashrc or .zshrc file in your home dir. \
   ```alias tokgen="sh ~/.oathtool/tokgen.sh"```
 
 ## All done.
