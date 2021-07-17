@@ -1,4 +1,5 @@
-#### 1. Install oathtool using ```brew install oath-toolkit```
+#### 1. Install oathtool using 
+```brew install oath-toolkit```
 #### 2. Set up your token on token.redhat.com. (Remember to choose type totp.)
 - Click on the link to see your qrcode on the confirmation screen. 
 - Rename the directory where this README is, to `.oathtool`, place it under your home directory `~/` 
