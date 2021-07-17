@@ -1,6 +1,6 @@
 # Setting up token generation utility on your mac.
 
-_Ensure that your organization allows permits using a legitimate commandline tool for obtaining two-factor auth token. Some may see it as an unnecessary ease in authentication, and hence disallow it._\
+_Ensure that your organization allows permits using a legitimate commandline tool for obtaining two-factor auth token. Some may see it as an unnecessary ease in authentication, and hence disallow it._
 1. Install `oathtool` using 
 ```brew install oath-toolkit```
 
