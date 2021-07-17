@@ -14,7 +14,7 @@ _Ensure that your organization allows permits using a legitimate commandline too
 ```gpg --batch --output qrcode.gpg --passphrase <some phrase 2> --symmetric qrcode```
 
 
-4. Make sure to permanently delete `qrcode` and `totptoken` files once gpg files are created in step 3. We won't be needing them as we'll only be using rhe encrypted files to obtain the token.  
+4. Note down your `<some phrase 1>` and `<some phrase 2>`. Make sure to permanently delete `qrcode` and `totptoken` files at this point. We won't be needing them as we'll only be using rhe encrypted files to obtain the token.
  
 
 5. Open `tokgen.sh` in this folder and replace `<some phrase 1>` and `<some phrase 2>` with the phrases you selected in `step 3`, respectively for `totp` and `qrcode`.
