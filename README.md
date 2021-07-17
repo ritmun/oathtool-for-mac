@@ -9,9 +9,9 @@ _Ensure that your organization allows permits using a legitimate commandline too
 - Click on the link to see your qrcode on the confirmation screen. 
 - Rename the directory where this README is, to `.oathtool`, place it under your home directory `~/` 
 - Save qrcode and token in text files named qrcode and totptoken, temporarily, in it.
- 3. Create gpg keys for both files with this: 
-```gpg --batch --output token.gpg --passphrase <some phrase 1> --symmetric totptoken```
- ```gpg --batch --output qrcode.gpg --passphrase <some phrase 2> --symmetric qrcode```
+3. Create gpg keys for both files with this: 
+```gpg --batch --output token.gpg --passphrase <some phrase 1> --symmetric totptoken``` \
+```gpg --batch --output qrcode.gpg --passphrase <some phrase 2> --symmetric qrcode```
 
 
 4. Make sure to permanently delete `qrcode` and `totptoken` files once gpg files are created in step 3. We won't be needing them as we'll only be using rhe encrypted files each time to get token.  
