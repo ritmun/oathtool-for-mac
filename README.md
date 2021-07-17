@@ -17,7 +17,7 @@ _Ensure that your organization allows permits using a legitimate commandline too
 4. Note down your `<some phrase 1>` and `<some phrase 2>`. Make sure to permanently delete `qrcode` and `totptoken` files at this point. We won't be needing them as we'll only be using rhe encrypted files to obtain the token.
  
 
-5. Open `tokgen.sh` in this folder and replace `<some phrase 1>` and `<some phrase 2>` with the phrases you used in `step 3`, respectively for `totp` and `qrcode`.
+5. Open `tokgen.sh` in this folder and replace `<some phrase 1>` and `<some phrase 2>` with the phrases you used in `step 3`, for `totp` and `qrcode` respectively.
 
 
 6. Remove all access for any user other than yourself to these files. \
