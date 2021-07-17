@@ -7,7 +7,7 @@ _Ensure that your organization allows permits using a legitimate commandline too
 
 2. Create a `token` in your auth settings (e.g. _token.redhat.com_, or your _okta_/other sso settings page for your org.) Remember to choose `totp` token type, if asked.
 - Find your `qrcode` on the confirmation screen. It should be provided as an alternative to the barcode. 
-- Clone this directory. Rename the cloned directory to `.oathtool`, and move it under your home directory `~/` 
+- Clone this repository. Rename the cloned directory to `.oathtool`, and move it under your home directory `~/` 
 - Inside this folder, save your `qrcode` and `token` in separate files named `qrcode` and `totptoken`, with no extension. You'll delete these later.  
 3. Create gpg keys for both files using these: \
 ```gpg --batch --output token.gpg --passphrase <some phrase 1> --symmetric totptoken``` \
