@@ -9,7 +9,7 @@ _Ensure that your organization allows permits using a legitimate commandline too
 - Click on the link to see your qrcode on the confirmation screen. 
 - Rename the directory where this README is, to `.oathtool`, place it under your home directory `~/` 
 - Save qrcode and token in text files named qrcode and totptoken, temporarily, in it.
-3. Create gpg keys for both files with this: 
+3. Create gpg keys for both files using these: \
 ```gpg --batch --output token.gpg --passphrase <some phrase 1> --symmetric totptoken``` \
 ```gpg --batch --output qrcode.gpg --passphrase <some phrase 2> --symmetric qrcode```
 
