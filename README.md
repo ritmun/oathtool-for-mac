@@ -28,7 +28,7 @@ _Ensure that your organization allows permits using a legitimate commandline too
 7. Add the following alias to your bashrc or zshrc file
   ```alias tokgen="sh ~/.oathtool/tokgen.sh"```
 
-##All done.
+## All done.
 - To use this, run the `tokgen` command. Token will be copied to your clipboard, just paste it in the password field. 
 - Remember to hit enter when the token is no longer needed on the clipboard, so the tool can clear the clipboard. 
 - Totp tokens expire in certain time intervals. So, you may need to run this again when authenticating next time. 
