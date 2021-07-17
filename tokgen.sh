@@ -1,5 +1,7 @@
+#Todo: Replace <some phrase 1> and <some phrase 2> with your passphrases.
+
 cd ~/.oathtool
-gpg --batch --output tempt --passphrase <some phrase 1> --decrypt token.gpg  
+gpg --batch --output tempt --passphrase <some phrase 1> --decrypt token.gpg
 gpg --batch --output tempq  --passphrase <some phrase 2>> --decrypt qrcode.gpg
 
 echo "$(cat tempt)$(oathtool --base32 --totp $(<tempq))"  > tmp                      
