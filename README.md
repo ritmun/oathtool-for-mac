@@ -20,12 +20,12 @@ _Ensure that your organization allows permits using a legitimate commandline too
 5. Open `tokgen.sh` in this folder and replace `<some phrase 1>` and `<some phrase 2>` with the phrases you selected in `step 3`, respectively for `totp` and `qrcode`.
 
 
-6. Remove all access for any user other than yourself to these files.
+6. Remove all access for any user other than yourself to these files. \
 ```chmod 700 qrcode.gpg token.gpg``` \
 ```chmod 730 tokgen.sh```
 
 
-7. Add the following alias to your bashrc or zshrc file
+7. Add the following alias to your bashrc or zshrc file. \
   ```alias tokgen="sh ~/.oathtool/tokgen.sh"```
 
 ## All done.
