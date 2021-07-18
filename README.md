@@ -6,7 +6,7 @@ _Ensure that your organization permits use of a commandline tool for obtaining t
 
 
 2. Create the encrypted files you'll need to create the token.
-    - In your auth settings (e.g. in your okta account, or your sso credentials settings page for your org)
+    - In your auth settings (i.e. in your okta account, or your sso credentials settings page for your org)
       - Create a `key`. This is the `key` used to create the token. Save it. Choose `totp` type, if asked.
       - Find your `QR code` on the confirmation screen when the `key` is generated. Save it.
     - On your localhost
