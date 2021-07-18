@@ -29,6 +29,6 @@ _Ensure that your organization allows permits using a legitimate commandline too
   ```alias tokgen="sh ~/.oathtool/tokgen.sh"```
 
 ## All done.
-- To use this, run the `tokgen` command. Token will be copied to your clipboard, just paste it in the password field. 
+- To use this, run the `tokgen` command. Ignore gpg info messages. Token will be copied to your clipboard, just paste it in the password field. 
 - Remember to hit enter when the token is no longer needed on the clipboard, so the tool can clear the clipboard. 
 - Totp tokens expire in certain time intervals. So, you may need to run this again when authenticating next time. 
