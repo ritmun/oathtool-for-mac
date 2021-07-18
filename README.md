@@ -5,7 +5,7 @@ _Ensure that your organization permits use of a commandline tool for obtaining t
 ```brew install oath-toolkit```
 
 
-2. Create a `token` in your auth settings (e.g. okta, or the specifc sso settings page for your org.) Remember to choose `totp` token type, if asked.
+2. Create a `token` in your auth settings (e.g. okta, or your sso credentials settings page for your org.) Remember to choose `totp` token type, if asked.
 - Find your `QR code` on the confirmation screen. It should be provided as an alternative to the barcode. 
 - Clone this repository. Rename the cloned directory to `.oathtool`, and move it under your home directory `~/` 
 - Inside this folder, save your `QR code` and `token` in separate files named `qrcode` and `totptoken`, with no extension. You'll delete these later.  
