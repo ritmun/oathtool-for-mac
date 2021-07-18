@@ -1,4 +1,4 @@
-# Simple oauth token generation utility for Mac.
+# A Simple OAuth Token Generation Utility for Mac
 
 _Ensure that your organization permits use of a commandline tool for obtaining two-factor auth token. Some may see it as an unnecessary ease in authentication, and hence disallow it._
 1. Install `oathtool` using 
