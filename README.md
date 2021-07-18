@@ -20,7 +20,7 @@ _Ensure that your organization permits use of a commandline tool for obtaining t
 4. Note down your `<some phrase 1>` and `<some phrase 2>`. Make sure to permanently delete `qrcode` and `key` files at this point. We won't be needing them as we'll only be using the encrypted files to obtain the token.
  
 
-5. Open `tokgen.sh` in this folder and replace `<some phrase 1>` and `<some phrase 2>` with the phrases you used in `step 3`, for `key` and `qrcode` respectively.
+5. Open `tokgen.sh` in `~/.oathtool` directory and replace `<some phrase 1>` and `<some phrase 2>` with the phrases you used in `step 3`, for `key` and `qrcode` respectively.
 
 
 6. Remove access for all other users to these files. \
