@@ -7,11 +7,11 @@ _Ensure that your organization permits use of a commandline tool for obtaining t
 
 2. Create the encrypted files you'll need to create the token.
 - In your auth settings e.g. okta account, or your sso credentials settings page for your org
- - Create a `key`. This is the `key` used to create the token.  Remember to choose `totp` type, if asked.
- - Find your `QR code` on the confirmation screen. It should be provided as an alternative to the barcode. 
+  - Create a `key`. This is the `key` used to create the token.  Remember to choose `totp` type, if asked.
+  - Find your `QR code` on the confirmation screen. It should be provided as an alternative to the barcode. 
 - On your localhost
- - Clone this repository. Rename the cloned directory to `.oathtool`, and move it under your home directory `~/` 
- - Inside this folder, save your `QR code` and `key` in separate files named `qrcode` and `key`, with no extension. You'll delete these later.  
+  - Clone this repository. Rename the cloned directory to `.oathtool`, and move it under your home directory `~/` 
+  - Inside this folder, save your `QR code` and `key` in separate files named `qrcode` and `key`, with no extension. You'll delete these later.  
 4. Create gpg keys for both files using these: \
 ```gpg --batch --output key.gpg --passphrase <some phrase 1> --symmetric key``` \
 ```gpg --batch --output qrcode.gpg --passphrase <some phrase 2> --symmetric qrcode```
