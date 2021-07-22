@@ -1,7 +1,7 @@
 # A Simple OAuth Token Generation Utility for Mac
 
 _Ensure that your organization permits use of a commandline tool for obtaining two-factor auth token. Some may see it as an unnecessary ease in authentication, and hence disallow it._
-1. Install `oathtool` using 
+1. Install `oathtool` using your OS's package manager. For mac, use :
 ```brew install oath-toolkit```
 
 
@@ -29,9 +29,10 @@ _Ensure that your organization permits use of a commandline tool for obtaining t
 
 
 7. Add the following alias to the .bashrc or .zshrc file in your home dir. \
-  ```alias tokgen="sh ~/.oathtool/tokgen.sh"```
+  ```alias tokgen="sh ~/.oathtool/tokgen.sh"```  \
+  For OSs other than mac, uncomment lines indicated in `tokgen.sh`. 
 
 ## All done.
-- To use this, run the `tokgen` command. Ignore gpg info messages. Token will be copied to your clipboard, just paste it in the password field. 
-- Remember to hit enter when the token is no longer needed on the clipboard, so the tool can clear the clipboard. 
+- To use this, run the `tokgen` command. Ignore gpg info messages. 
+- On a mac, token will be copied to your clipboard, just paste it in the password field. Remember to hit enter when the token is no longer needed on the clipboard, so the tool can clear the clipboard. 
 - Totp tokens expire in certain time intervals. So, you may need to run this again when authenticating next time. 
