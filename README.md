@@ -6,9 +6,9 @@ _Ensure that your organization permits use of a commandline tool for obtaining t
 
 
 2. Create the encrypted files you'll need to create the token.
-    - In your auth settings (i.e. in your okta account, or your sso credentials settings page for your org)
-      - Create a `key`. This is the `key` used to create the token. Save it. Choose `totp` type, if asked.
-      - Find your `QR code` on the confirmation screen when the `key` is generated. Save it.
+    - In your organization's SSO two-factor auth settings 
+      - Create a `key` (aka _token_). This is the `key` used to create the auth token. Save it. Choose `totp` type, if asked.
+      - Find your `QR code` (aka _Secret Key_) on the confirmation screen when the barcode is generated. Save it, removing spaces between 4 char blocks.
     - On your localhost
         - Clone this repository. Rename the cloned directory to `.oathtool`, and move it under your home directory `~/` 
         - Inside this folder, save your `QR code` and `key` in separate files named `qrcode` and `key`, with no extension. You'll delete these later.  
