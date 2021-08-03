@@ -32,7 +32,7 @@ _Ensure that your organization permits use of a commandline tool for obtaining t
   ```alias tokgen="sh ~/.oathtool/tokgen.sh"```  \
   For OSs other than mac, uncomment lines indicated in `tokgen.sh`. 
 
-## All done.
+## Usage
 - To use this, run the `tokgen` command. Ignore gpg info messages. 
 - On a mac, token will be copied to your clipboard, just paste it in the password field. Remember to hit enter when the token is no longer needed on the clipboard, so the tool can clear the clipboard. 
 - Totp tokens expire in certain time intervals. So, you may need to run this again when authenticating next time. 
