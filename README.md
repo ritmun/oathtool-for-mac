@@ -34,5 +34,8 @@ _Ensure that your organization permits use of a commandline tool for obtaining t
 
 ## Usage
 - To use this, run the `tokgen` command. (Ignore gpg info messages.)
-- On a mac, token will be copied to your clipboard, just paste it in the password field. (Optionally hit enter after using the copied string, so the tool can clear the clipboard.)
+- On a mac, token will be copied to your clipboard, just paste it in the password field. (Optionally hit enter after using the copied string, so the tool can clear the clipboard.) On Linux, copy and paste. 
+
+
+Note: 
 - Totp tokens expire in certain time intervals. So, you may need to run `tokgen` again when authenticating next time. 
