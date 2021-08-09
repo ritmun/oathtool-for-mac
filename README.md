@@ -1,4 +1,4 @@
-# Ctrl + V Token Paste Utility
+# Ctrl + V Token Utility
 
 Convert the process of 1. token generation using a mobile app, then 2. copying it, 3. concatenating it with keyphrase and 4. typing it out...
 
