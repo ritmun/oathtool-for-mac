@@ -1,4 +1,12 @@
-# A Simple OAuth Token Generation Utility for Mac
+# Ctrl + V Token Paste Utility
+
+Convert the process of 1. token generation using a mobile app, then 2. copying it, 3. concatenating it with keyphrase and 4. typing it out to simple two steps: 
+
+## Usage
+- First `tokgen` command on the terminal 
+- Then `cmd + v` in the password field
+
+## Installation: 
 
 _Ensure that your organization permits use of a commandline tool for obtaining two-factor auth token. Some may see it as an unnecessary ease in authentication, and hence disallow it._
 1. Install `oathtool` using your OS's package manager. For mac, use :
@@ -32,9 +40,7 @@ _Ensure that your organization permits use of a commandline tool for obtaining t
   ```alias tokgen="sh ~/.oathtool/tokgen.sh"```  \
   For OSs other than mac, uncomment lines indicated in `tokgen.sh`. 
 
-## Usage
-- To use this, run the `tokgen` command. (Ignore gpg info messages.)
-- On a mac, token will be copied to your clipboard, just paste it in the password field. (Optionally hit enter after using the copied string, so the tool can clear the clipboard.) On Linux, copy and paste. 
+
 
 
 Note: 
