@@ -1,6 +1,8 @@
 # Ctrl + V Token Paste Utility
 
-Convert the process of 1. token generation using a mobile app, then 2. copying it, 3. concatenating it with keyphrase and 4. typing it out to simple two steps: 
+Convert the process of 1. token generation using a mobile app, then 2. copying it, 3. concatenating it with keyphrase and 4. typing it out...
+
+ to following simple two steps: 
 
 ## Usage
 - First `tokgen` command on the terminal 
