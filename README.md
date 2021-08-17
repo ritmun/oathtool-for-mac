@@ -1,12 +1,12 @@
 # Ctrl + V Token Utility
 
-Convert the process of 1. token generation using a mobile app, then 2. copying it, 3. concatenating it with keyphrase and 4. typing it out...
+Purpose: Replace the process of token generation using a mobile app then concatenating it with keyphrase typing it out...
 
- to following simple two steps: 
+.. by following two steps: 
 
 ## Usage
-- First `tokgen` command on the terminal 
-- Then `cmd + v` in the password field
+- Run `tokgen` command 
+- Paste password
 
 ## Installation: 
 
