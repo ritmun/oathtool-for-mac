@@ -17,7 +17,7 @@ _Ensure that your organization permits use of a commandline tool for obtaining t
 
 2. Create the encrypted files you'll need to create the token.
     - In your organization's SSO two-factor auth settings 
-      - Create a `key` (aka _token_). This is the `key` used to create the auth token. Save it. Choose `totp` type, if asked.
+      - Create a `key` (aka _token_). This is the `key` used to create the auth token. Save it. Choose `totp` type, and NOT `hotp` if asked.
       - Find your `QR code` (aka _Secret Key_) on the confirmation screen when the barcode is generated. Save it, removing spaces between 4 char blocks.
     - On your localhost
         - Clone this repository. Rename the cloned directory to `.oathtool`, and move it under your home directory `~/` 
