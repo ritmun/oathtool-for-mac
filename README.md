@@ -22,7 +22,7 @@ _Ensure that your admin permits use of a commandline tool for obtaining two-fact
     - On your localhost
         - Clone this repository. Rename the cloned directory to `.oathtool`, and move it under your home directory `~/` 
         - Inside this folder, save your `QR code` and `key` in separate files named `qrcode` and `key`, with no extension. You'll delete these later.  
-4. Create gpg keys for both files using these: \
+4. Encrypt both files: \
 ```gpg --batch --output key.gpg --passphrase <some phrase 1> --symmetric key``` \
 ```gpg --batch --output qrcode.gpg --passphrase <some phrase 2> --symmetric qrcode```
 
