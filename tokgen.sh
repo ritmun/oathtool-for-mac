@@ -6,14 +6,17 @@ gpg --batch --output ~/.oathtool/tempq  --passphrase <some phrase 2> --decrypt ~
 # Following should be adjusted for the token format expected in your organization's auth. Here, the format is key+totp.
 echo "$(cat ~/.oathtool/tempk)$(oathtool --base32 --totp $(<~/.oathtool/tempq))"  > ~/.oathtool/tmp      
 
-# For mac uncomment this 
+# For mac uncomment this, comment the linux block
 pbcopy < ~/.oathtool/tmp
 echo "Token pbcopied. Hit enter to clear clipboard when it is pasted."
 read ip
 pbcopy < /dev/null
 
-# For other OSs uncomment this
-# cat ~/.oathtool/tmp
+# For linux, uncomment this, comment the mac block: pbcopy is a mac utility, other OSs will need to use cat and xclip
+# cat ~/.oathtool/tmp | xclip -selection clipboard
+# read ip
+# xclip -sel clip < /dev/null
+
 
 # Remove temp files
 rm -f ~/.oathtool/tempq
