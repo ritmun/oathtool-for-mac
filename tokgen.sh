@@ -3,7 +3,7 @@
 gpg --batch --output ~/.oathtool/tempk --passphrase <some phrase 1> --decrypt ~/.oathtool/key.gpg
 gpg --batch --output ~/.oathtool/tempq  --passphrase <some phrase 2> --decrypt ~/.oathtool/qrcode.gpg
 
-# Following should be adjusted for the token format expected in your organization's auth. Here, the format is key+totp.
+# Following should be adjusted for the token format expected in your auth. Here, the format is key+totp.
 echo "$(cat ~/.oathtool/tempk)$(oathtool --base32 --totp $(<~/.oathtool/tempq))"  > ~/.oathtool/tmp      
 
 # For mac uncomment this, comment the linux block
