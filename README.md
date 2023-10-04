@@ -10,7 +10,7 @@ Purpose: Replace the process of token generation using a mobile app then concate
 
 ## Installation: 
 
-_Ensure that your organization permits use of a commandline tool for obtaining two-factor auth token. Some may see it as an unnecessary ease in authentication, and hence disallow it._
+_Ensure that your admin permits use of a commandline tool for obtaining two-factor auth token. Some may see it as an unnecessary ease in authentication, and hence disallow it._
 1. Install `oathtool` using your OS's package manager. For mac, use :
 ```brew install oath-toolkit```
 
